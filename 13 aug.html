@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="view port"content="width=device-width,intial-scale=1.0">
+<title>document</title>
+<body>
+    <center>
+        <h1>Yaswanth Reddy Web Portfolio</h1>
+        <h4>Showcasing HTML Skills Using Tables</h4>
+        <a href="">About</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="">Skills</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="">Project</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="">Contact</a>
+    </center>
+    <hr>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+         </tr>
+    <tr id="about">
+        <td colspan="2">
+            <h2>About Me</h2>
+            <img src="images/WhatsApp Image 2025-07-27 at 11.56.36_87f2d669.jpg" alt="Yaswanth Reddy" width="80">
+            <p>Hello! I'm Yaswanth Reddy, a passionate web developer. I love building semantic, accessible, and responsive websites using core web technologies.</p>
+            <p>I specialize in front-end development, especially HTML, CSS, and JavaScript.</p>  
+        </td>
+    </tr>
+    <tr>
+         <td id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 / CSS3</li>
+                <li>JS</li>
+                <li>Responsive Design</li>
+                <li>Git & Github</li>
+            </ul>
+
+            <h3>Skill Levels</h3>
+            <table border="2">
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+<td id="projects">
+            <h2>Projects</h2>
+            <ol>
+                <li><b>Object detection</b> By using artifical intellienge.</li>
+                <li><b>PREDICTION OF LOAN ELIGIBILITY OF THE CUSTOMER</b> By using machine learning.</li>
+            </ol>
+            <img src="images/WhatsApp Image 2025-08-13 at 12.09.02_508337ec.jpg" alt="" width="150">
+            <img src="images/WhatsApp Image 2025-08-13 at 12.16.15_791a8254.jpg" alt="" width="150">
+        </td>
+    </tr>
+    <tr id =Contact>
+        <td colspan="2">
+            <h2>Contact Me</h2>
+            <form action="./submit" method="get">
+                <fieldset>
+                    <legend>contact Form</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" id="fullname"> <br> <br>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email">
+                <p>Gender:
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </p>
+                <p>Service Interested:
+                    <input type="checkbox" name="service" value="Web Design"> Web Design
+                    <input type="checkbox" name="service" value="SEO"> SEO
+                </p>
+                <p>Country:
+                    <select name="country">
+                        <option value="select">--select--</option>
+                        <option value="USA">USA</option>
+                        <option value="India">India</option>
+                        <option value="canada">canada</option>
+                        <option value="UK">UK</option>
+                    </select>
+                </p>
+                <p>Message:<br>
+                    <textarea name="message" rows="4" cols="50"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Clear">
+                </p>
+                </fieldset>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            Last Updated: August 13, 2025 <br>
+            Created by yaswanth Reddy. <br>
+            Email: yashuyaswanth793@gmail.com <br>
+            Website: example.com <br>
+            © 2025 Yaswanth Reddy. All rights reserved.
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+        
+
+
